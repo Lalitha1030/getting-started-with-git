@@ -1,0 +1,20 @@
+git init
+rm -r .git
+rm-rf .fit
+git status
+git add teams.txt
+git commit -m "Adding the teams.txt file"
+git log
+type Q or q if you want to get out of the reader
+
+ two qualities to keep in mind when making a commit:
+1) The size of your commit
+2) The message of your commit
+
+You can only use git diff to compare changes that haven't been staged.
+    git diff
+The -A flag will add all changes to the staging area, including new files
+   git add -A
+you should just plan to quit vi if you accidentally get into it. To do so, type :q!. Then, press Enter.
+
+ git commit command only commits staged changes.
