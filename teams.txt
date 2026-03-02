@@ -32,4 +32,14 @@ git push -u origin main
 push an existing repository from the command line
 git remote add origin https://github.com/Lalitha1030/getting-started-with-git.git
 git branch -M main
+
+git push to push your commits to the remote origin on the main branch. The -u flag sets the default upstream reference. This essentially means that for all future times that you want to push, you can just type git push.
+
 git push -u origin main
+
+
+ git remote -v
+output:
+origin  https://github.com/Lalitha1030/getting-started-with-git.git (fetch)
+origin  https://github.com/Lalitha1030/getting-started-with-git.git (push)
+
