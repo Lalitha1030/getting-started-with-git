@@ -18,3 +18,18 @@ The -A flag will add all changes to the staging area, including new files
 you should just plan to quit vi if you accidentally get into it. To do so, type :q!. Then, press Enter.
 
  git commit command only commits staged changes.
+
+to pull the code from remote repository:
+https://github.com/Lalitha1030/getting-started-with-git.git
+echo "# getting-started-with-git" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Lalitha1030/getting-started-with-git.git
+git push -u origin main
+
+push an existing repository from the command line
+git remote add origin https://github.com/Lalitha1030/getting-started-with-git.git
+git branch -M main
+git push -u origin main
